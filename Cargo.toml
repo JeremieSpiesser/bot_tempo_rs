@@ -1,0 +1,17 @@
+[package]
+name = "tempo_bot_rs_2024"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.93"
+chrono = { version = "0.4.38", features = ["unstable-locales"] }
+clap = { version = "4.5.23", features = ["derive"] }
+dotenv = "0.15.0"
+env_logger = "0.11.5"
+log = "0.4.22"
+reqwest = { version = "0.12.9", features = ["json"] }
+rumqttc = "0.24.0"
+serde = { version = "1.0.215", features = ["derive"] }
+serde_json = "1.0.133"
+tokio = { version = "1.41.1", features = ["full"] }
